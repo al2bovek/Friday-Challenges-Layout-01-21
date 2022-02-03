@@ -1,0 +1,168 @@
+.field {
+
+    margin: 0;
+    width: 1440px;
+    height: 906px;
+    background-color: #e5e5e5;
+    
+   }
+   .lpart *{
+    transition: all 0.6s ease-in-out;
+   }
+   .lpart {
+    position: absolute;
+    width: 100px;
+    height: 906px;
+    background-color: #f7f6ff;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+   }
+   .lpart:hover{
+    width: 206px;
+}
+   .ibit {
+    position: absolute;
+    width: 68px;
+    height: 34px;
+    left: 16px;
+    top: 44px;
+   }
+   .lpart:hover .ibit {
+       left: 69px;
+    }
+   .line23 {
+    position: absolute;
+    width: 68px;
+    height: 0px;
+    left: 16px;
+    top: 110px;
+    border: 2px solid #C4C4C4;
+   }
+   .lpart:hover .line23 {
+    width: 128px;
+    left: 39px;
+   }
+
+   .vector {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #02577A;
+    }
+   .vector > .icon-bg {
+    position: absolute;
+    width: 100px;
+    height: 57px;
+    top: 142px;
+    background: #FFFFFF;
+    border-radius: 25px 0px 0px 25px;
+   }
+   .lpart:hover .vector .icon-bg {
+    width: 206px;
+    
+   }
+   .vector > .ihome {
+    position: absolute;
+    bottom: 80% ;
+    left: 40px;
+    }
+    .lpart:hover .vector > .ihome{
+        left: 4%;
+    }
+   .lpart:hover .vector > .home {
+    position: absolute;
+    width: 62px;
+    height: 18px;
+    left: 90px;
+    top: 161px;
+    display: block;
+    text-align: center;
+    }
+    .vector > .home{
+        display: none;
+    }
+   .vector > .icalendar {
+    position: absolute;
+    left: 40px;
+    top: 25.5%;
+   }
+   .lpart:hover .vector > .icalendar{
+    left: 4%;
+}
+   .lpart:hover .vector > .calendar {
+    position: absolute;
+    width: 81px;
+    height: 18px;
+    left: 81px;
+    top: 236px;
+    display: block;
+    text-align: center;
+    }
+    .vector > .calendar{
+        display: none;
+    }
+   .vector > .ife {
+    position: absolute;
+    left: 40px;
+    bottom: 65%;
+   }
+   .lpart:hover .vector > .ife{
+    left: 4%;
+}
+   .lpart:hover .vector > .fe {
+        position: absolute;
+        width: 81px;
+        height: 18px;
+        left: 77px;
+        top: 295px;
+        display: block;
+        text-align: center;
+       }
+       .vector > .fe{
+        display: none;
+    }   
+   .vector > .igames {
+    position: absolute;
+    left: 33px;
+    bottom: 58.5%;
+   }
+   .lpart:hover .vector > .igames{
+    left: 4%;
+}
+   .lpart:hover .vector > .games{
+    position: absolute;
+    width: 81px;
+    height: 18px;
+    left: 77px;
+    top: 354px;
+    display: block;
+    text-align: center;
+   }
+   .vector > .games{
+    display: none;
+}
+   .line24 {
+    position: absolute;
+    width: 346px;
+    height: 0px;
+    left: 547px;
+    top: 871px;
+    border: 1px solid #02577A;
+   }
+
+   .bit {
+   position: absolute;
+   width: 184px;
+   height: 24px;
+   left: 626px;
+   top: 882px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 11px;
+   line-height: 13px;
+   color: #02577A;
+   
+}
+
+   
